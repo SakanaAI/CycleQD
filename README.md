@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/SakanaAI/CycleQD/">
-  <img width="300" alt="Screenshot 2024-10-15 at 15 18 51" src="https://github.com/user-attachments/assets/6af42955-b4f3-4884-b426-faa327594cea"></a><br>
+    <img width="300" alt="Screenshot 2024-10-16 at 20 35 47" src="https://github.com/user-attachments/assets/bd60128a-7a55-413c-a3d5-640295c5b09b"></a><br>
 <b>Agent Skill Acquisition for Large Language Models via CycleQD</b><br>
 </h1>
 
