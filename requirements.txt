@@ -1,0 +1,17 @@
+evalplus
+fasttext==0.9.2
+matplotlib
+optuna==3.6.1
+jsonlines==4.0.0
+datasets==2.18.0
+openai==1.25.0
+torch
+torchvision
+torchaudio
+vllm==0.3.0
+cmaes==0.10.0
+numpy==1.26.4
+cma
+hydra-core
+wandb
+

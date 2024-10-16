@@ -1,0 +1,2 @@
+_target_: sampler.random_sampler.RandomSampler
+seed: 42

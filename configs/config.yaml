@@ -1,0 +1,42 @@
+defaults:
+  - _self_
+  - qd/crossover: model_linear
+  - qd/mutation: gaussian_noise
+  - qd/sampling: random_sampling
+
+celery:
+  name: "example"
+  mode: "solo"
+  timeout: 8000
+  num_workers: 1
+
+wandb:
+  entity: "your_entity"
+  project: "your_project"
+  name: "your_name"
+
+tasks:
+  - agentbench_os
+  - mbpp
+  - agentbench_db
+
+base_model_path: "meta-llama/Meta-Llama-3-8B-Instruct"
+seed_model_path:
+  - "SakanaAI/Llama-3-8B-Instruct-OS-Expert"
+  - "SakanaAI/Llama-3-8B-Instruct-Coding-Expert"
+  - "SakanaAI/Llama-3-8B-Instruct-DB-Expert"
+
+qd:
+  reposition_seed_models: True
+  num_generation: 1200
+  flip_interval: 1
+  use_cma: False
+  restart_dir: ""
+
+cma_es:
+  popsize: 8
+  sigma: 0.01
+  seed: 42
+
+disk_cleaning_interval: 20
+elite_evaluation_interval: 500
