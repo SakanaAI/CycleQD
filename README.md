@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  📚 <a href="https://arxiv.org/abs/2410.X">[Paper]</a> |
+  📚 <a href="https://arxiv.org/pdf/2410.14735">[Paper]</a> |
   🤗 <a href="https://huggingface.co/SakanaAI">[Hugging Face]</a>
 </p>
 
@@ -86,5 +86,11 @@ To cite our work, you can use the following:
 ```
 @article{sakana2024cycleQD,
   title={Agent Skill Acquisition for Large Language Models via CycleQD},
+  author={So Kuroki and Taishi Nakamura and Takuya Akiba and Yujin Tang},
+  year={2024},
+  eprint={2410.14735},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/pdf/2410.14735},
 }
 ```
