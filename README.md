@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  📚 <a href="https://arxiv.org/pdf/2410.14735">[Paper]</a> |
+  📚 <a href="https://arxiv.org/abs/2410.14735">[Paper]</a> |
   🤗 <a href="https://huggingface.co/SakanaAI">[Hugging Face]</a>
 </p>
 
@@ -91,6 +91,6 @@ To cite our work, you can use the following:
   eprint={2410.14735},
   archivePrefix={arXiv},
   primaryClass={cs.CL},
-  url={https://arxiv.org/pdf/2410.14735},
+  url={https://arxiv.org/abs/2410.14735},
 }
 ```
