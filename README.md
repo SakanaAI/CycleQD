@@ -41,16 +41,16 @@ Run the following commands after docker installation
 docker pull mysql
 pip install mysql-connector-python==8.0.32 docker==6.1.2
 ```
+**Tips**
+* If you encounter errors connecting to MySQL containers, please increase the value of `/proc/sys/fs/aio-max-nr` (e.g., `echo 1048576 | sudo tee /proc/sys/fs/aio-max-nr`)
+* We use `requests==2.31.0` in our setup. (see [this issue](https://github.com/docker/docker-py/issues/3256))
 
+  
 #### OSInteraction task
 Run the following command after docker installation
 ```shell
 python data/os_interaction/images.py build -c data/os_interaction/configs/std.yaml -r .
 ```
-
-**Tips**
-* If you encounter errors connecting to MySQL containers, please increase the value of `/proc/sys/fs/aio-max-nr` (e.g., `echo 1048576 | sudo tee /proc/sys/fs/aio-max-nr`)
-* `docker` package does not work with `requests==2.32.0` (see [this issue](https://github.com/docker/docker-py/issues/3256))
 
 ### Celery and redis  
 ```shell
