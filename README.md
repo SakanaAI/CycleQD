@@ -7,6 +7,7 @@
 <p align="center">
   📚 <a href="https://arxiv.org/abs/2410.14735">[Paper]</a> |
   🤗 <a href="https://huggingface.co/SakanaAI">[Hugging Face]</a>
+  📝 <a href="https://sakana.ai/cycleqd/">[Blog]</a>
 </p>
 
 ## Installation 
